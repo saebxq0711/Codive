@@ -96,7 +96,7 @@ export function Footer({ language }: FooterProps) {
                   size="icon"
                   className="hover:bg-primary hover:text-primary-foreground transition-all duration-500 cursor-pointer hover-glow rounded-full w-12 h-12"
                 >
-                  <i className="fab fa-linkedin-in text-lg text-primary hover:text-white"></i>
+                  <i className="fab fa-linkedin-in text-lg text-white"></i>
                 </Button>
               </a>
               <a
@@ -109,16 +109,16 @@ export function Footer({ language }: FooterProps) {
                   size="icon"
                   className="hover:bg-primary hover:text-primary-foreground transition-all duration-500 cursor-pointer hover-glow rounded-full w-12 h-12"
                 >
-                  <i className="fab fa-facebook-f text-lg text-primary hover:text-white"></i>
+                  <i className="fab fa-facebook-f text-lg text-white"></i>
                 </Button>
               </a>
               <a href="">
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="hover:bg-primary hover:text-primary-foreground transition-all duration-500 cursor-pointer hover-glow rounded-full w-12 h-12"
+                  className="hover:bg-primary hover:text-white-foreground transition-all duration-500 cursor-pointer hover-glow rounded-full w-12 h-12"
                 >
-                  <i className="fab fa-x-twitter text-lg text-primary hover:text-white"></i>
+                  <i className="fab fa-x-twitter text-lg text-white"></i>
                 </Button>
               </a>
               <a
@@ -131,7 +131,7 @@ export function Footer({ language }: FooterProps) {
                   size="icon"
                   className="hover:bg-primary hover:text-primary-foreground transition-all duration-500 cursor-pointer hover-glow rounded-full w-12 h-12"
                 >
-                  <i className="fab fa-instagram text-lg text-primary hover:text-white"></i>
+                  <i className="fab fa-instagram text-lg text-white"></i>
                 </Button>
               </a>
             </div>
