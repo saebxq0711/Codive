@@ -125,7 +125,6 @@ const translations = {
           "Tailwindcss",
           "JavaScript",
           "Livewire",
-          ""
         ],
         category: "Healthcare",
         status: "development" as ProjectStatus,
