@@ -89,7 +89,7 @@ export function Header({ language, onLanguageChange }: HeaderProps) {
               <button
                 key={item.key}
                 onClick={() => scrollToSection(item.key)}
-                className="relative text-foreground hover:text-primary transition-all duration-500 font-medium text-sm uppercase tracking-wide cursor-pointer group animate-fade-in hover-glow"
+                className="relative text-foreground hover:text-primary transition-all duration-500 font-medium text-sm uppercase tracking-wide cursor-pointer group animate-fade-in glow-text"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 {item.label}

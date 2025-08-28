@@ -144,6 +144,20 @@
     cursor: pointer !important;
   }
 
+  .glow-text {
+    text-shadow: none;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+  }
+
+  .glow-text:hover {
+    color: var(--primary);
+    text-shadow:
+      0 0 16px var(--secondary),
+      0 0 1px rgba(4, 191, 104, 0.9);
+  }
+
+
+
   html {
     scroll-behavior: smooth;
   }
